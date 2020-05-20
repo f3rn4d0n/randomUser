@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode11.4
 podfile: ./Podfile
-xcode_project: randomUser.xcodeproj # path to your xcodeproj folder
+xcode_project: randomUser.xcodeproj 
 xcode_scheme: randomUserTests
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator,OS=13.1,name=iPhone 11
