@@ -26,6 +26,7 @@ class UsersListViewController: UIViewController, NVActivityIndicatorViewable {
     
     lazy var searchBar:UISearchController = {
         let search = UISearchController(searchResultsController: nil)
+        search.obscuresBackgroundDuringPresentation = false
         search.searchBar.searchBarStyle = .minimal
         search.searchBar.placeholder = " Search persons with name"
         search.searchBar.sizeToFit()
@@ -137,6 +138,7 @@ extension UsersListViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if let user = presenter?.getUserAt(index: indexPath.row){
+            searchBar.resignFirstResponder()
             presenter?.selectUser(user: user)
         }
     }
@@ -153,5 +155,9 @@ extension UsersListViewController: UISearchResultsUpdating{
         let searchBar = searchController.searchBar
         let gender = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
         presenter?.searchUsers(name: searchBar.text ?? "", gender: gender)
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        presenter?.searchUsers(name: "", gender: "All")
     }
 }

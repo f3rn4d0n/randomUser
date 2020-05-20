@@ -53,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		3BAE43BDF45CF2DA8D1DF142 /* Pods-randomUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUser.debug.xcconfig"; path = "Target Support Files/Pods-randomUser/Pods-randomUser.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0ADA6124750CE60069082F /* UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UML.png; sourceTree = "<group>"; };
+		CE0ADA6324751AB20069082F /* demo.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.GIF; sourceTree = "<group>"; };
 		CE76EA5624735D3700D89422 /* randomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE76EA5924735D3700D89422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE76EA5B24735D3700D89422 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,9 +116,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0ADA6024750CCA0069082F /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				CE0ADA6124750CE60069082F /* UML.png */,
+				CE0ADA6324751AB20069082F /* demo.GIF */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		CE76EA4D24735D3700D89422 = {
 			isa = PBXGroup;
 			children = (
+				CE0ADA6024750CCA0069082F /* Documentation */,
 				CE76EA912473757F00D89422 /* Podfile */,
 				CE76EA5824735D3700D89422 /* randomUser */,
 				CE76EA7224735D3B00D89422 /* randomUserTests */,
