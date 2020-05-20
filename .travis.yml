@@ -1,0 +1,6 @@
+language:
+  - swift
+osx_image: xcode11.4
+script:
+  - xcodebuild -scheme randomUser -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=13.4:' build test
+
