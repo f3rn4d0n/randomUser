@@ -1,7 +1,10 @@
 language:
   - swift
 osx_image: xcode11.4
-env:
-  matrix:
-    - TEST_SDK=iphonesimulator13.4 OS=13.4 NAME='iPhone XR'
-    - TEST_SDK=iphonesimulator13.4 OS=13.4 NAME='iPhone 7'
+xcode_project: randomUser.xcodeproj 
+podfile: ./Podfile
+language:
+  - swift
+osx_image: xcode11.4
+script:
+  - set -o pipefail && xcodebuild -scheme randomUser -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=13.4' build test
