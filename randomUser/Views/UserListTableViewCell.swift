@@ -80,8 +80,8 @@ class UserListTableViewCell: UITableViewCell {
     
     func fillWithError(){
         userProfile.image = #imageLiteral(resourceName: "whoIs")
-        userName.text = "Desconocido"
-        userDetail.text = "Desconocido"
+        userName.text = "Unknow"
+        userDetail.text = "Unknow"
         userProfile.layer.cornerRadius = userProfile.frame.height/2
         userProfile.layoutIfNeeded()
     }

@@ -81,7 +81,7 @@ class UsersListViewController: UIViewController, NVActivityIndicatorViewable {
     
     @objc func reloadUsersData(){
         startAnimating(CGSize.init(width: 50, height: 50),
-                       message: "Espere un momento",
+                       message: "Wait a moment please",
                        messageFont: UIFont.boldSystemFont(ofSize: 12),
                        type: .ballRotate,
                        color: .white,
