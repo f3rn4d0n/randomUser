@@ -1,6 +1,10 @@
 language:
   - swift
 osx_image: xcode11.4
-script:
-  - xcodebuild -scheme randomUser -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=13.4:' build test
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator13.4 OS=13.4 NAME='iPhone XR'
+    - TEST_SDK=iphonesimulator13.4 OS=13.4 NAME='iPhone 7'
 
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project randomUser.xcodeproj -scheme randomUser -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
