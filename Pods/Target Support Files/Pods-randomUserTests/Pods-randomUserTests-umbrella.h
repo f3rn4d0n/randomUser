@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double iOSDropDownVersionNumber;
-FOUNDATION_EXPORT const unsigned char iOSDropDownVersionString[];
+FOUNDATION_EXPORT double Pods_randomUserTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_randomUserTestsVersionString[];
 

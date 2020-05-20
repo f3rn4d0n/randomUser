@@ -7,7 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360E61AE751D380B7A97DA21 /* libPods-randomUserUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C450C550BA72F49EAC38D9 /* libPods-randomUserUITests.a */; };
+		4E809414034AB4C60270164B /* libPods-randomUserTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3884F7EC3B37BDBF94A4555A /* libPods-randomUserTests.a */; };
 		6B1D523B2E952A9D95BC6D86 /* libPods-randomUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E790DE417AB16B87F0ACC98E /* libPods-randomUser.a */; };
+		CE0ADA6424757F5A0069082F /* UserListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAA124737F9200D89422 /* UserListProtocols.swift */; };
+		CE0ADA6524757F5A0069082F /* UsersListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA9724737D4E00D89422 /* UsersListInteractor.swift */; };
+		CE0ADA6624757F5A0069082F /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA9924737DA200D89422 /* UsersListPresenter.swift */; };
+		CE0ADA68247580BB0069082F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA8D24735E0A00D89422 /* User.swift */; };
+		CE0ADA69247580BB0069082F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA8F2473752500D89422 /* Location.swift */; };
+		CE0ADA6A247580BB0069082F /* RandomMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAB024743FE400D89422 /* RandomMe.swift */; };
+		CE0ADA6B2475840A0069082F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE76EA912473757F00D89422 /* Podfile */; };
+		CE0ADA6D2475844B0069082F /* UserListRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA9E24737E3D00D89422 /* UserListRouting.swift */; };
+		CE0ADA6E2475844B0069082F /* UserDetailRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAAE24742D1400D89422 /* UserDetailRouting.swift */; };
+		CE0ADA71247584570069082F /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAAC24742CFC00D89422 /* UserDetailPresenter.swift */; };
+		CE0ADA722475845A0069082F /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAAA24742CF100D89422 /* UserDetailInteractor.swift */; };
+		CE0ADA732475845D0069082F /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA9B24737DF900D89422 /* UsersListViewController.swift */; };
+		CE0ADA742475845D0069082F /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAA324742A2100D89422 /* UserListTableViewCell.swift */; };
+		CE0ADA752475845D0069082F /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAA624742CC800D89422 /* UserDetailViewController.swift */; };
+		CE0ADA76247584610069082F /* UserDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EAA824742CE000D89422 /* UserDetailProtocols.swift */; };
 		CE76EA5A24735D3700D89422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA5924735D3700D89422 /* AppDelegate.swift */; };
 		CE76EA5C24735D3700D89422 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA5B24735D3700D89422 /* SceneDelegate.swift */; };
 		CE76EA6424735D3700D89422 /* randomUser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE76EA6224735D3700D89422 /* randomUser.xcdatamodeld */; };
@@ -52,7 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C012D63FF0BA99072B4140A /* Pods-randomUserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUserUITests.release.xcconfig"; path = "Target Support Files/Pods-randomUserUITests/Pods-randomUserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3884F7EC3B37BDBF94A4555A /* libPods-randomUserTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-randomUserTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAE43BDF45CF2DA8D1DF142 /* Pods-randomUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUser.debug.xcconfig"; path = "Target Support Files/Pods-randomUser/Pods-randomUser.debug.xcconfig"; sourceTree = "<group>"; };
+		8F283D480961A0D711916DD9 /* Pods-randomUserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUserTests.release.xcconfig"; path = "Target Support Files/Pods-randomUserTests/Pods-randomUserTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACDCA2EA5BB109C05C7678B1 /* Pods-randomUserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUserTests.debug.xcconfig"; path = "Target Support Files/Pods-randomUserTests/Pods-randomUserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0ADA6124750CE60069082F /* UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UML.png; sourceTree = "<group>"; };
 		CE0ADA6324751AB20069082F /* demo.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.GIF; sourceTree = "<group>"; };
 		CE76EA5624735D3700D89422 /* randomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +106,10 @@
 		CE76EAB024743FE400D89422 /* RandomMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomMe.swift; sourceTree = "<group>"; };
 		CE76EAB224744D7E00D89422 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CE76EAB42474A4A800D89422 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E0C450C550BA72F49EAC38D9 /* libPods-randomUserUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-randomUserUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790DE417AB16B87F0ACC98E /* libPods-randomUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-randomUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE2FE04AE9597C4AA8813C /* Pods-randomUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUser.release.xcconfig"; path = "Target Support Files/Pods-randomUser/Pods-randomUser.release.xcconfig"; sourceTree = "<group>"; };
+		F9EF5CEC548AA34003A2EC2E /* Pods-randomUserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-randomUserUITests.debug.xcconfig"; path = "Target Support Files/Pods-randomUserUITests/Pods-randomUserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E809414034AB4C60270164B /* libPods-randomUserTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360E61AE751D380B7A97DA21 /* libPods-randomUserUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +281,8 @@
 			children = (
 				CE76EAB42474A4A800D89422 /* MapKit.framework */,
 				E790DE417AB16B87F0ACC98E /* libPods-randomUser.a */,
+				3884F7EC3B37BDBF94A4555A /* libPods-randomUserTests.a */,
+				E0C450C550BA72F49EAC38D9 /* libPods-randomUserUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -265,6 +292,10 @@
 			children = (
 				3BAE43BDF45CF2DA8D1DF142 /* Pods-randomUser.debug.xcconfig */,
 				F2BE2FE04AE9597C4AA8813C /* Pods-randomUser.release.xcconfig */,
+				ACDCA2EA5BB109C05C7678B1 /* Pods-randomUserTests.debug.xcconfig */,
+				8F283D480961A0D711916DD9 /* Pods-randomUserTests.release.xcconfig */,
+				F9EF5CEC548AA34003A2EC2E /* Pods-randomUserUITests.debug.xcconfig */,
+				0C012D63FF0BA99072B4140A /* Pods-randomUserUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -294,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE76EA8624735D3B00D89422 /* Build configuration list for PBXNativeTarget "randomUserTests" */;
 			buildPhases = (
+				89DB62D370BD32C2E1276EAF /* [CP] Check Pods Manifest.lock */,
 				CE76EA6B24735D3B00D89422 /* Sources */,
 				CE76EA6C24735D3B00D89422 /* Frameworks */,
 				CE76EA6D24735D3B00D89422 /* Resources */,
@@ -312,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE76EA8924735D3B00D89422 /* Build configuration list for PBXNativeTarget "randomUserUITests" */;
 			buildPhases = (
+				CCEB23D29D1B2CEBAF597DD4 /* [CP] Check Pods Manifest.lock */,
 				CE76EA7624735D3B00D89422 /* Sources */,
 				CE76EA7724735D3B00D89422 /* Frameworks */,
 				CE76EA7824735D3B00D89422 /* Resources */,
@@ -385,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0ADA6B2475840A0069082F /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +432,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		89DB62D370BD32C2E1276EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-randomUserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCEB23D29D1B2CEBAF597DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-randomUserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE6102B8EC24C8E233FB3A42 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,7 +529,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0ADA752475845D0069082F /* UserDetailViewController.swift in Sources */,
+				CE0ADA71247584570069082F /* UserDetailPresenter.swift in Sources */,
+				CE0ADA6524757F5A0069082F /* UsersListInteractor.swift in Sources */,
+				CE0ADA76247584610069082F /* UserDetailProtocols.swift in Sources */,
+				CE0ADA6624757F5A0069082F /* UsersListPresenter.swift in Sources */,
+				CE0ADA742475845D0069082F /* UserListTableViewCell.swift in Sources */,
+				CE0ADA68247580BB0069082F /* User.swift in Sources */,
+				CE0ADA6D2475844B0069082F /* UserListRouting.swift in Sources */,
+				CE0ADA732475845D0069082F /* UsersListViewController.swift in Sources */,
+				CE0ADA6424757F5A0069082F /* UserListProtocols.swift in Sources */,
+				CE0ADA6A247580BB0069082F /* RandomMe.swift in Sources */,
+				CE0ADA6E2475844B0069082F /* UserDetailRouting.swift in Sources */,
 				CE76EA7424735D3B00D89422 /* randomUserTests.swift in Sources */,
+				CE0ADA722475845A0069082F /* UserDetailInteractor.swift in Sources */,
+				CE0ADA69247580BB0069082F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +738,7 @@
 		};
 		CE76EA8724735D3B00D89422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDCA2EA5BB109C05C7678B1 /* Pods-randomUserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -668,6 +761,7 @@
 		};
 		CE76EA8824735D3B00D89422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F283D480961A0D711916DD9 /* Pods-randomUserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,6 +784,7 @@
 		};
 		CE76EA8A24735D3B00D89422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EF5CEC548AA34003A2EC2E /* Pods-randomUserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -710,6 +805,7 @@
 		};
 		CE76EA8B24735D3B00D89422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C012D63FF0BA99072B4140A /* Pods-randomUserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
